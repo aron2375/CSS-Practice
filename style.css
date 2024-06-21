@@ -1,0 +1,159 @@
+/* Style Imports */
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  width: 12cm;
+  margin-top: 10%;
+}
+/* Collom one */
+.col-1 {
+  background-color: hsl(252, 100%, 67%);
+  border-width: 0.25cm;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 6cm;
+  border-radius: 8%;
+  align-items: center;
+  padding: 20px 20px;
+  background: rgb(46, 43, 233);
+  background: linear-gradient(
+    180deg,
+    rgba(46, 43, 233, 1) 1%,
+    rgba(120, 87, 255, 1) 89%
+  );
+}
+
+.result {
+  text-align: center;
+  font-size: 20px;
+  gap: 0.75cm;
+  color: hsla(222, 100%, 96%, 0.849);
+  font-family: "Gabarito", sans-serif;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.circle {
+  margin-top: 0.5cm;
+  text-align: center;
+  border-width: 3px;
+  border-radius: 50%;
+
+  align-items: center;
+  align-self: center;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+    180deg,
+    rgba(78, 33, 202, 0.9472163865546218) 3%,
+    rgba(40, 33, 202, 0.9051995798319328) 78%,
+    rgba(36, 33, 202, 1) 100%
+  );
+  width: 3cm;
+  height: 3cm;
+}
+
+.text-one {
+  padding-top: 0.7cm;
+  text-align: center;
+  color: white;
+  font-size: 1cm;
+  font-weight: 600;
+  font-family: "Gabarito", sans-serif;
+  margin: 0 auto;
+}
+
+.text-two {
+  padding-top: 0.1cm;
+  text-align: center;
+  font-size: 0.25cm;
+  font-weight: 600;
+  font-family: "Gabarito", sans-serif;
+  color: hsla(222, 100%, 96%, 0.849);
+}
+
+.text-three {
+  padding-top: 0.4cm;
+  text-align: center;
+  font-size: 0.55cm;
+  font-weight: 500;
+  font-family: "Gabarito", sans-serif;
+  color: hsla(222, 100%, 96%, 0.849);
+}
+
+.congrats {
+  padding-top: 0.4cm;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.3cm;
+  font-family: "Gabarito", sans-serif;
+  color: hsla(222, 100%, 96%, 0.849);
+}
+
+/* Collom Two */
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 5.5cm;
+  border-radius: 0% 10% 10% 0%;
+  margin-left: 0.8cm;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 2px 2px 12px -6px #000000;
+  transform: translateX(-37px);
+  z-index: -1;
+}
+
+.container-2,
+h1 {
+  font-size: 15px;
+  display: inline-flex;
+  padding-left: 15px;
+  justify-content: flex-end;
+  border-radius: 10px;
+  font-family: "Gabarito", sans-serif;
+}
+
+.container-2 {
+  width: 150px;
+  height: 20px;
+  padding: 3px 3px;
+  margin-left: 15px;
+  background-color: aqua;
+}
+
+button {
+  align-self: center;
+  margin-bottom: 25px;
+  width: 150px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  background-color: hsl(224, 30%, 27%);
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gabarito", sans-serif;
+}
+
+.score {
+  position: static;
+  margin-left: 0.5cm;
+}
+
+.title {
+  margin-top: 0.5cm;
+}
